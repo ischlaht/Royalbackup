@@ -1,0 +1,108 @@
+/*
+*{
+	margin: 0px;
+	padding: 0px;
+}
+*/
+body{
+    font-size: 120%;
+	background: #F8F8FF;
+    width:50%;
+    
+}
+login {
+	font-size: 100%;
+	background: #F8F8FF;
+    float:left;
+    min-width:300px;
+    margin:10px 10px;
+}
+
+#header {
+	width: 100%;
+	margin:auto 0px;
+	color: #d01717;
+	background: #c19458;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+}
+#content {
+	width: 50%;
+	margin: 0px auto;
+	padding: 200px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+#input-group {
+	margin: 10px 0px 10px 0px;
+    
+}
+
+#input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+#input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+/*------------------------------Login Button----*/
+#btn {
+	padding: 6px;
+	font-size: 17px;
+	color: white;
+	background: #b66912;
+	border: none;
+	border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #0d8e17;
+    color:red;
+    cursor:pointer;
+    
+}
+/*----------------------------Signup button*/
+#signupbtn {
+    background-color: blue;
+	color: white;
+    padding: 6px;
+	font-size: 17px;
+	border: none;
+	border-radius: 5px;
+    
+}
+#signupbtn:hover {
+    background-color: #0d8e17;
+    color:red;
+    cursor:pointer;
+    
+    
+}
+/*---------------------------Error Message if failed Login*/
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}

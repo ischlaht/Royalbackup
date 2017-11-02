@@ -1,0 +1,101 @@
+ /*This is Buttons Container*/
+#buttonscontainer{
+    background-color:darkgrey;
+    height:100%;
+    width:200px;
+    min-width:180px;
+    margin-top:;
+    margin-left:;
+    margin-right:;
+    padding:20px;
+    padding-bottom;
+    padding-right:;
+    border-radius:10px;
+    padding-top:4%;
+    display:inline-table;
+    align-self: center;
+    position:inherit;;
+}
+
+
+/*This is for Contact Info Button Display*/
+#buttonci{
+    background-color: black;
+    color:#FFD700;
+    border-radius:7px;
+    border-color:gold;
+    align-self:center;
+    padding:5px;
+    width:100%;
+    max-width:100%;
+    min-width:100%;
+    Height:100%;
+    min-height:100%;
+    margin-top: 5%;
+}
+
+
+#buttonci:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+/*END CONTACT INFO*/
+
+
+/*This is for Employment Button Design*/
+#buttone{
+    background-color: black;
+    color:#FFD700;
+    border-radius:7px;
+    border-color:#FFD700;
+    align-content: center;
+    padding:5px;
+    width:100%;
+    max-width:100%;
+    min-width:100%;
+    height:100%;
+    min-height:100%;
+    margin-top:5%; 
+}
+
+#buttone:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+/*END EMPLOYMENT*/
+
+
+#buttonp{
+    background-color: black;
+    color:#FFD700;
+    border-radius:7px;
+    border-color:#FFD700;
+    align-content: center;
+    
+    padding:5px;
+    width:100%;
+    max-width:100%;
+    min-width:100%;
+    Height:100%;
+    min-height:100%;
+    margin-top: 5%;
+}
+    
+#buttonp:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Mobile Frienly Responsive*/
+@media screen and (max-width:840px){
+    #buttonscontainer{
+        width:99%;
+        margin:0px 0px 0px 0px;
+        padding: 0px 10px 10px 10px;
+        }
+    
+}
+    

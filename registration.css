@@ -1,0 +1,184 @@
+#totalcontainer{
+    background-color: red;
+    width:100%;
+    height:100%;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+
+/*---------------Loggedin widget-----------------------------------------------*/
+#loggedincontainer{
+    background-color:black;
+    float:right;
+    width:15%;
+    height:17%;
+    margin-right: 20px;
+
+    
+    
+}
+
+#loggedinheader{
+    color:black;
+    text-align: center;
+    font-size:30px;
+    
+    height:40px;
+    width:100%;
+    background-color: orangered;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    
+}
+#loggedincontainer p{
+    color:red;
+    padding:10px;
+    
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+#Rheader{
+    	width: 100%;
+	margin:auto 0px;
+	color: white;
+	background: #9a5800;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
+    
+    
+    
+    
+    
+}
+
+
+#registercontainer{
+    text-align: center;
+    background-color: orangered;
+    width:100%;
+    display:inline-grid;
+    
+    
+    
+}
+
+
+#textbox{
+	margin: 10px 0px 10px 0px;
+    width:50%;
+    display:inline-grid;
+    
+    
+    
+}
+
+#textbox label {
+	display:inline-table;
+	text-align: left;
+    font-size:150%;
+	margin: 3px;
+    padding:5px;
+}
+#textbox input {
+	height: 30px;
+	width: 50%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+    text-align: center;
+    
+}
+/*------------------------------Login Button----*/
+#btn {
+	padding: 6px;
+	font-size: 17px;
+	color: white;
+	background: #b66912;
+	border: none;
+	border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #0d8e17;
+    color:red;
+    cursor:pointer;
+    
+}
+/*----------------------------Signup button*/
+#signupbtn {
+    background-color: blue;
+	color: white;
+    padding: 6px;
+	font-size: 17px;
+	border: none;
+	border-radius: 5px;
+    
+}
+#signupbtn:hover {
+    background-color: #0d8e17;
+    color:red;
+    cursor:pointer;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

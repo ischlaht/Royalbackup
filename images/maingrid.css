@@ -1,0 +1,187 @@
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.grid div:nth-child(even){
+    background-color: #FDD700;
+}
+
+.grid div:nth-child(odd){
+    background-color: red;
+    
+}
+
+.header{
+    grid-column-end: span 10;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    font-size:200px;
+    text-align: center;
+    color:black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------Notes-------------------Notes----------------Notes------Notes--------Notes------Notes-------Notes-------------Notes---------Notes-------Notes------Notes--------Notes------Notes-------Notes------>
+
+
+        Index
+con= continue or same kinda operation
+AND = Same kind of operation.
+USE(#)= must be used together EX: USE(1) will math with USE(1)
+****adding 1fr makes it 1 fraction of the screen, 1fr 1fr addes 2 colums,
+2fr makes the column take 2 fractions of the grid.
+
+
+
+
+*** use grid-template-columns:200px 1fr; to make column 1 2200px(% etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___     .a{ grid-column: (1/3;}    ___will start at line 1 and end at line 3____
+AND...  .a{ gird-column-end: span 2}____will span 2 columns starting at 1___
+AND..     .a{ grid-column-start:1; grid-column-end:3;}_____
+
+
+_____auto____ makes grid fit content
+
+
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

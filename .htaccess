@@ -1,0 +1,8 @@
+DirectoryIndex index.php index.html homepage.php
+
+
+
+
+AddType application/octet-stream .mov
+AddType application/octet-stream .pdf
+AddType application/octet-stream .txt

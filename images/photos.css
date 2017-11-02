@@ -1,0 +1,72 @@
+.container{
+    background-color:#533B22;
+    height: 2000;
+    max-height:px;
+    margin-top:12px;
+    border-radius:20px;
+    padding-bottom:4%;
+    padding-top:1%;
+    }
+
+/*For title*/
+.header{
+    color:#FFD700;
+    background-color:#533B22;
+    border-radius:20px;
+    padding-top: 2%;
+    padding-bottom:1.5%;
+    font-size: 400%;
+    font-style:italic;
+    text-align:center;
+}
+
+/*Photo Headers or Labels*/
+/*Residential header*/
+.photolabel{
+    color:#FFD700;
+    background-color:black;
+    font-size:400%;
+    border-radius: 20px;
+    width:95%;
+    margin-left:1.5%;
+    padding:.<link  href="web" rel="stylesheet" style type="text/css">%;
+    margin-top:2%;
+    border:10px solid lightslategrey;
+    font-style:oblique;
+    text-align:center;
+}
+
+
+/*<!--Image 1-->*/
+.photo1{
+    width:25%;
+    min-width:260px;
+    height:350px;
+    min-height:350px;
+    margin-left:5.5%;
+    margin-top:2%;
+    border-color:lightslategray;
+    border-width: 10px;
+}
+
+/*HOVER properties*/
+    .photo1:hover{
+        cursor:pointer;
+        border-color:#FDD700 ;
+        width:25.2%;
+        height: 352px;
+        transition-delay:.15s;
+}
+
+#footer{
+    background-color: black;
+    color:red;
+    text-align:center;
+    padding:5px;
+    padding-top:10px;
+    position:inherit;
+    width:99.5%;
+    height:100%;
+    margin-top:0%;
+    border-radius:10px;
+}
